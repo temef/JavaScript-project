@@ -1,0 +1,22 @@
+<% layout("./layouts/layouts.eta") %>
+<h1>Projects</h1>
+
+<h2>Add project</h2>
+
+<form method="POST">
+  New Project: <input type="text" name="name" />
+  <input type="submit" value="New project!" />
+</form>
+
+<h2>Exsisting projects</h2>
+
+<ul>
+<% it.projects.forEach((proj) => { %>
+  <li>
+    <a href="/projects/<%= proj.id %>"><%= proj.name %></a>
+    <form method="POST" action="/projects/<%= proj.id %>">
+      <input type="submit" value="Remove" />
+    </form>
+  </li>
+<% }); %>
+</ul>

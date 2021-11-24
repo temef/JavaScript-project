@@ -1,0 +1,9 @@
+<html>
+  <head>
+    <title>PROJECT APP!</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <%~ it.body %>
+  </body>
+</html>
