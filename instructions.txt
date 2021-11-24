@@ -3,3 +3,5 @@ deno run --allow-net --allow-read --unstable app.js
 command to launch the application.
 
 Database: ElephantSQL
+
+Internet address: https://project-appi.herokuapp.com/
