@@ -6,4 +6,4 @@ to launch the application.
 
 Database: ElephantSQL
 
-Internet address: https://project-appi.herokuapp.com/ (this doesn't work because heroku is not free nowadays)
+Internet address: https://project-appi.herokuapp.com/ (this doesn't work anymore because heroku is not free nowadays)
